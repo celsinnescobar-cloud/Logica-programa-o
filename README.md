@@ -70,7 +70,6 @@ Para executar o script, digite o comando e aperte enter
    ```bash
    ./calculadora.sh
 
-   
 
 ---
 
