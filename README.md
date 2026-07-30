@@ -28,7 +28,7 @@ Siga as instruções abaixo de acordo com o seu sistema operacional para abrir o
 
 ### Passo 1: Abrir o Terminal
 
-* **No Linux (Ubuntu, Debian, Fedora, etc.):**
+* **No Linux:**
   * Pressione o atalho de teclado: `Ctrl + Alt + T`
   * *Ou:* Abra o menu de aplicativos, digite **Terminal** e clique no ícone para abrir.
 
@@ -63,10 +63,12 @@ No Linux, scripts `.sh` precisam de permissão explícita para serem rodados.
 
 
 2. **Executando o Script**
-   No terminal, dentro da pasta do projeto digite:
+No terminal, dentro da pasta do projeto digite:
+   ```bash
    ./calculadora.sh
 
-   E após tecle enter
+E após tecle Enter.
+
 
 
 ---
