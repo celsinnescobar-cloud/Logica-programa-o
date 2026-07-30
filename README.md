@@ -62,14 +62,15 @@ No Linux, scripts `.sh` precisam de permissão explícita para serem rodados.
    chmod 744 calculadora.sh
 
 
-2. **Executando o Script**
-No terminal, dentro da pasta do projeto digite:
+### Executando o Script:
+
+Para executar o script, digite o comando e aperte enter
+
+1. Digite o comando:
    ```bash
    ./calculadora.sh
 
-E após tecle Enter.
-
-
+   
 
 ---
 
