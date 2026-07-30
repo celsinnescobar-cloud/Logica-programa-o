@@ -81,24 +81,25 @@ Para executar o script, digite o comando e aperte enter
 O código executa duas rodadas de cálculos através de uma estrutura de repetição e garante que entradas incorretas não interrompam a aplicação.
 
 
-**Principais Pontos da Implementação:**
-Laço de Repetição (for i in range(2)):
-   → Controla a execução do programa para rodar o fluxo da calculadora 2 vezes seguidas.
+### Principais Pontos da Implementação:
 
-Entrada de Dados e Validação (try / except ValueError):
-   → Utiliza a função float() para aceitar números inteiros e decimais (ex: 10 ou 5.5).
+**Laço de Repetição (for i in range(2)):**
+   * → Controla a execução do programa para rodar o fluxo da calculadora 2 vezes seguidas.* 
 
-   → Caso o usuário digite letras ou caracteres inválidos, o bloco captura a exceção ValueError, exibe uma mensagem orientativa e usa o continue para reiniciar o ciclo com segurança.
+---
 
+**Entrada de Dados e Validação (try / except ValueError):**
+   * → Utiliza a função float() para aceitar números inteiros e decimais (ex: 10 ou 5.5).
 
+   * → Caso o usuário digite letras ou caracteres inválidos, o bloco captura a exceção ValueError, exibe uma mensagem orientativa e usa o continue para reiniciar o ciclo com segurança.
+
+---
 
 **Operações Matemáticas:**
-
-Executa diretamente os cálculos de Soma (+), Subtração (-) e Multiplicação (*).
+   * Executa diretamente os cálculos de Soma (+), Subtração (-) e Multiplicação (*).
 
 
 **Tratamento de Divisão por Zero (try / except ZeroDivisionError):**
+   * Realiza a Divisão (/) dentro de um bloco de teste try.
 
-Realiza a Divisão (/) dentro de um bloco de teste try.
-
-Se o segundo número for 0, o código captura o erro ZeroDivisionError e exibe a mensagem de aviso "Divisão: Não é possível dividir um número por zero!", evitando que o programa quebre.
+   * Se o segundo número for 0, o código captura o erro ZeroDivisionError e exibe a mensagem de aviso "Divisão: Não é possível dividir um número por zero!", evitando que o programa quebre.
