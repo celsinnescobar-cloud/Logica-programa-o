@@ -98,6 +98,7 @@ O código executa duas rodadas de cálculos através de uma estrutura de repeti�
 **Operações Matemáticas:**
    * Executa diretamente os cálculos de Soma (+), Subtração (-) e Multiplicação (*).
 
+---
 
 **Tratamento de Divisão por Zero (try / except ZeroDivisionError):**
    * Realiza a Divisão (/) dentro de um bloco de teste try.
