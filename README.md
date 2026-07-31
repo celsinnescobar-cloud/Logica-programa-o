@@ -1,4 +1,4 @@
-# Logica programação
+# Lógica programação
 Curso de Lógica de Programação em Python
 
 ---
@@ -83,7 +83,7 @@ O código executa duas rodadas de cálculos através de uma estrutura de repeti�
 ### Principais Pontos da Implementação:
 
 **Laço de Repetição (for i in range(2)):**
-   * → Controla a execução do programa para rodar o fluxo da calculadora 2 vezes seguidas.* 
+   * → Controla a execução do programa para rodar o fluxo da calculadora 2 vezes seguidas.
 
 ---
 
